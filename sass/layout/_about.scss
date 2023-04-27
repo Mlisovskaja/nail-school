@@ -1,17 +1,53 @@
 /*---------0-1199px---------------*/
 @media screen and (max-width: 1199px) {
     .about {
-        display: none;
-    }
+background-color: #F5F4FA;
+}
+.about__text {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.section-title-accent {
+    color: var(--accent-color);
+}
+.about__img-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.about__img {
+    max-width: 500px;
+
+}
 }
 
 /*---------------DESKTOP-----------------*/
 @media screen and (min-width: 1200px) {
+
 .about {
-    padding-top: 0;
-    
+    background-color: #F5F4FA;
+}
+.section-title-accent {
+    color: var(--accent-color);
 }
 
+.about__text {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.about__img-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.about__img {
+    max-width: 500px;
+    
+}
 .about-list {
     display: flex;
     gap: var(--item-gap);

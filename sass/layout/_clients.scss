@@ -1,5 +1,15 @@
 /*---------MOBILE---------------*/
 @media screen and (max-width: 767px) {
+    .clients {
+            background-color: #F5F4FA;
+        }
+
+                .accent {
+                    color: var(--accent-color);
+                }
+        .teacher-img {
+            margin-bottom: 20px;
+        }
 .clients-list {
     display: flex;
     flex-wrap: wrap;
@@ -24,6 +34,30 @@
 }
 /*-----------TABLET--------------*/
 @media screen and (min-width: 768px) {
+.clients {
+    background-color: #F5F4FA;
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+.teacher {
+    display: flex;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    text-shadow: rgb(214, 159, 198) 1px 0 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teacher-img {
+    max-width: 500px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
      .clients-list {
     display: flex;
     flex-wrap: wrap;
@@ -49,6 +83,11 @@
 @media screen and (min-width: 1200px) {
    .clients-list__item {
     flex-basis: calc((100% - 150px) / 6);
+}
+
+.teacher {
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .clients-list__link {
