@@ -1,12 +1,13 @@
 /*---------MOBILE---------------*/
 @media screen and (max-width: 767px) {
+
 .advantages-list {
     display: flex;
     flex-wrap: wrap;
     }
 
         .advantages-list__item {
-        background-image: url('../../images/desktop/advantages/IMG_5922.PNG');
+        background-image: url('https://i.pinimg.com/736x/06/2c/14/062c14ea5cb527fd7210912f1a72fa64--picture-frames-embellishments.jpg');
             background-position:center;
             background-size:contain;
             background-repeat: no-repeat;
@@ -53,6 +54,12 @@
 
 @media screen and (min-width: 768px) {
 
+    .advantages {
+            background-image: url("../../images/desktop/advantages/pink-5494371_1280.jpg");
+        // background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
 .advantages-list {
     display: flex;
     gap: var(--item-gap);
@@ -61,11 +68,7 @@
 
 .advantages-list__item {
     flex-basis: calc((100% - 30px) / 2);
-    background-image: url('../../images/desktop/advantages/IMG_5922.PNG');
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 250px;
+    
     
 }
 
