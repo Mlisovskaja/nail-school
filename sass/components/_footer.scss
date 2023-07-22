@@ -6,23 +6,24 @@
         padding-bottom: 60px;
     }
 
-    .footer__logo {
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
 
     .footer-address-box {
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
+
 
     .address {
         text-align: center;
         margin-bottom: 60px;
     }
 
+.footer-contacts-list {
+    display: flex;
+    list-style: none;
+}
     .footer-contacts-list-item:not(:last-child) {
         margin-bottom: 8px;
     }
@@ -54,108 +55,7 @@
         color: rgba(255, 255, 255, 0.6);
     }
 
-    .footer-sn-title {
-        display: block;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        text-align: center;
-        color: #FFFFFF;
-        margin-bottom: 20px;
-    }
 
-    .footer-social-list {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        margin-bottom: 60px;
-    }
-
-    .footer-social-list-link {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 44px;
-        height: 44px;
-        border-radius: 50%;
-        background: rgba(255, 255, 255, 0.1);
-        fill: #FFFFFF;
-    }
-
-    .footer-form {
-        display: flex;
-        flex-direction: column;
-        margin-top: auto;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .subscribe-form-title {
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.15;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #FFFFFF;
-        margin-bottom: 20px;
-    }
-
-    .subscribe-input {
-        border: 1px solid rgba(255, 255, 255, 0.3);
-            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-            border-radius: 4px;
-            height: 50px;
-            background-color: transparent;
-            padding: 15px 16px;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 1.25;
-            letter-spacing: 0.03em;
-            margin-bottom: 20px;
-            width: 90vw;
-            max-width: 450px;
-            transform: border-color var(--transition-main);
-        
-            &::placeholder {
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 1.25;
-                display: flex;
-                align-items: center;
-                letter-spacing: 0.03em;
-                color: rgba(255, 255, 255, 0.6);
-            }
-        
-            &:focus {
-                outline: none;
-                border-color: var(--accent-color);
-            }
-        }
-
-    .subscribe-bnt {
-        background: #e80980;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border: none;
-        border-radius: 4px;
-        color: rgba(255, 255, 255, 1);
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.87;
-        align-items: center;
-        text-align: center;
-        display: flex;
-        letter-spacing: 0.06em;
-        padding: 10px 31px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .icon-icon-send {
-        fill: currentColor;
-        margin-left: 10px;
-    }
 }
 
 /*-----------TABLET--------------*/
