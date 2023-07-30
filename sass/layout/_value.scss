@@ -1,7 +1,47 @@
+/*---------MOBILE---------------*/
+@media screen and (max-width: 767px) {
 .value {
     display: flex;
+    padding-left: 13px;
+    padding-top: 20px;
+    position: relative;
+}
+.value__list_1 {
+    display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 70px;
+        max-width: 200px;
+        margin-bottom: 10px;
+       
 }
 
-.teacher-box {
+.value__list_2 {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 105px;
+    max-width: 170px;
+    margin-bottom: 10px;
+}
+.value__list-item {
+    font-weight: 400;
+        font-size: 6px;
+        color: #000;
+}
+
+.value__img {
+    width: 123px;
+        height: 171px;
+        position: absolute;
+        top: 60px;
+        right: 0px;
+}
+.value__border {
+width: 128.96px;
+height: 31.32px;
+position: absolute;
+top: 206px;
+right: 0px;
+}
 }
