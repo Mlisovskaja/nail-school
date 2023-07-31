@@ -34,6 +34,10 @@ button {
   cursor: pointer;
 }
 
+.accent {
+  color: #E3117F;
+}
+
 .container {
   padding: 0;
   width: 100%;
@@ -1339,43 +1343,38 @@ button {
 }
 /*---------MOBILE---------------*/
 @media screen and (max-width: 767px) {
-  .clients {
-    background-color: #F5F4FA;
-  }
-  .accent {
-    color: var(--accent-color);
-  }
-  .teacher-img {
-    margin-bottom: 20px;
-  }
-  .clients-list {
+  .teacher__box {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: var(--item-gap);
+    position: relative;
   }
-  .clients-list__item {
-    flex-basis: calc((100% - 30px) / 2);
+  .teacher__img {
+    width: 122px;
+    height: 182px;
+    margin-right: 5px;
   }
-  .clients-list__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    fill: #AFB1B8;
-    border: 1px solid rgb(175, 177, 184);
-    height: 92px;
-    border-radius: 4px;
+  .teacher__border {
+    position: absolute;
+    width: 130px;
+    height: 23px;
+    top: 165px;
+  }
+  .teacher__bio {
+    color: #000;
+    font-family: Inter;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 5px 13px 5px 10px;
+  }
+  .teacher__set {
+    width: 183px;
+    height: 87px;
+    padding-left: 10px;
   }
 }
 /*-----------TABLET--------------*/
 @media screen and (min-width: 768px) {
-  .clients {
-    background-color: #F5F4FA;
-  }
-  .accent {
-    color: var(--accent-color);
-  }
   .teacher {
     display: flex;
     font-size: 20px;
@@ -1428,14 +1427,14 @@ button {
   }
 }
 /*---------MOBILE---------------*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .hero {
     background: linear-gradient(90deg, #FFF 0%, #E9E9EA 41.66%);
-    position: relative;
     margin-bottom: 12px;
   }
   .hero__box {
     display: flex;
+    position: relative;
   }
   .hero__text-box {
     padding-top: 37px;
@@ -1475,17 +1474,8 @@ button {
     width: 178.943px;
     height: 211.415px;
     position: absolute;
-    left: 178px;
+    left: 160px;
     bottom: 0px;
-  }
-}
-@media (min-width: 481px) and (max-width: 767px) {
-  .hero__photo {
-    width: 178.943px;
-    height: 211.415px;
-    position: absolute;
-    top: -27px;
-    left: 250px;
   }
 }
 /*-----------TABLET--------------*/
@@ -1904,14 +1894,69 @@ button {
     right: 0px;
   }
 }
-.course-box {
-  display: flex;
+/*---------MOBILE---------------*/
+@media screen and (max-width: 767px) {
+  .course__box {
+    padding-top: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .course__list {
+    list-style: none;
+  }
+  .course__program {
+    display: flex;
+    padding: 21px 10px 10px 10px;
+  }
+  .course__description {
+    color: #000;
+    font-family: Inter;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
 }
-
-.course__list {
-  list-style: none;
+/*---------MOBILE---------------*/
+@media screen and (max-width: 767px) {
+  .notpass {
+    background: linear-gradient(rgb(255, 255, 255), rgb(233, 233, 234));
+  }
+  .notpass__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 24px;
+    position: relative;
+  }
+  .notpass__description {
+    color: #000;
+    font-family: Inter;
+    font-size: 7.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding: 0px 18px;
+  }
+  .notpass__border-left {
+    position: absolute;
+    width: 112px;
+    height: 27px;
+    left: 9px;
+    top: 20px;
+  }
+  .notpass__border-right {
+    position: absolute;
+    width: 112px;
+    height: 27px;
+    right: 9px;
+    top: 22px;
+  }
 }
-
 :root {
   --primary-font: "Montserrat", sans-serif;
   --accent-color: #E3117F;

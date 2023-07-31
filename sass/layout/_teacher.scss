@@ -1,46 +1,42 @@
 /*---------MOBILE---------------*/
 @media screen and (max-width: 767px) {
-    .clients {
-            background-color: #F5F4FA;
+    .teacher__box {
+            display: flex;
+            position: relative;
+      }
+    
+        .teacher__img {
+        width: 122px;
+        height: 182px;
+        margin-right: 5px;
         }
 
-                .accent {
-                    color: var(--accent-color);
-                }
-        .teacher-img {
-            margin-bottom: 20px;
+        .teacher__border {
+            position: absolute;
+            width: 130px;
+                height: 23px;
+                top: 165px;
         }
-.clients-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: var(--item-gap);
-}
 
-.clients-list__item {
-    flex-basis: calc((100% - 30px) / 2);
-}
+        .teacher__bio {
+            color: #000;
+                font-family: Inter;
+                font-size: 7px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                padding: 5px 13px 5px 10px;
+        }
 
-.clients-list__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    fill: #AFB1B8;
-    border: 1px solid rgba(175, 177, 184, 1);
-    height: 92px;
-    border-radius: 4px;
-}
+        .teacher__set {
+            width: 183px;
+            height: 87px;
+            padding-left: 10px;
+        }
 }
 /*-----------TABLET--------------*/
 @media screen and (min-width: 768px) {
-.clients {
-    background-color: #F5F4FA;
-}
 
-.accent {
-    color: var(--accent-color);
-}
 
 .teacher {
     display: flex;

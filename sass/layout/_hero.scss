@@ -1,13 +1,14 @@
 /*---------MOBILE---------------*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
     .hero {
    background: linear-gradient(90deg, #FFF 0%, #E9E9EA 41.66%);
-    position: relative;
+    
     margin-bottom: 12px;
     }
 
     .hero__box {
         display: flex;
+        position: relative;
         
     }
     .hero__text-box {
@@ -55,23 +56,74 @@
         width: 178.943px;
         height: 211.415px;
     position: absolute;
-    // top: -27px;
-    left: 178px;
+    left: 160px;
     bottom: 0px;
 
        }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
-.hero__photo {
-        width: 178.943px;
-        height: 211.415px;
-        position: absolute;
-        top: -27px;
-        left: 250px;
-}
-}
+// @media screen and (min-width: 481px) and (max-width: 767px) {
+// .hero {
+//         background: linear-gradient(90deg, #FFF 0%, #E9E9EA 41.66%);
+//         position: relative;
+//         margin-bottom: 12px;
+//     }
 
+//     .hero__box {
+//         display: flex;
+
+//     }
+
+//     .hero__text-box {
+//         padding-top: 37px;
+//         padding-bottom: 19px;
+//         padding-left: 18px;
+//     }
+
+//     .hero__logo {
+//         width: 176px;
+//         height: 34px;
+//         margin-bottom: 14px;
+//     }
+
+//     .hero__title {
+//         color: #000;
+//         font-size: 17px;
+//         font-style: normal;
+//         font-weight: 700;
+//         line-height: normal;
+//         margin-bottom: 12px;
+//         font-family: Inter;
+//     }
+
+//     .hero__description {
+//         color: #000;
+//         font-size: 7px;
+//         font-style: normal;
+//         font-weight: 400;
+//         line-height: normal;
+//         font-family: Inter;
+//     }
+
+
+//     .hero__border {
+//         position: absolute;
+//         top: 135px;
+//         left: 43px;
+//         width: 113x;
+//         height: 27px;
+//     }
+
+
+//     .hero__photo {
+//         width: 178.943px;
+//         height: 211.415px;
+//         position: absolute;
+//         left: 250px;
+//         bottom: 0px;
+
+//     }
+// }
 /*-----------TABLET--------------*/
 @media screen and (min-width: 768px) {
     .hero {

@@ -1,0 +1,43 @@
+/*---------MOBILE---------------*/
+@media screen and (max-width: 767px) {
+
+    .notpass {
+      
+        background: linear-gradient(rgba(255, 255, 255, 1),
+                    rgba(233, 233, 234, 1));
+    }
+
+.notpass__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 24px;
+    position: relative;
+}
+.notpass__description {
+    color: #000;
+        font-family: Inter;
+        font-size: 7.5px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        padding: 0px 18px;
+}
+.notpass__border-left {
+    position: absolute;
+    width: 112px;
+    height: 27px;
+    left: 9px;
+    top: 20px;
+}
+
+.notpass__border-right {
+    position: absolute;
+    width: 112px;
+    height: 27px;
+    right: 9px;
+    top: 22px;
+}
+}
