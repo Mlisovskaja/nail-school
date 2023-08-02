@@ -2152,8 +2152,21 @@ button {
   }
 }
 :root {
-  --primary-font: "Montserrat", sans-serif;
+  --primary-font: "Gill Sans", sans-serif;
   --accent-color: #E3117F;
   --item-gap: 30px;
   --transition-main: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("../../fonts/SansSerifBookFLF.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gill Sans Bold";
+  src: url("../../fonts/SansSerifBldFLF.otf");
+  font-weight: 400;
+  font-style: normal;
 }/*# sourceMappingURL=main.css.map */
