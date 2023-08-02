@@ -1,5 +1,9 @@
 /*---------MOBILE---------------*/
 @media screen and (max-width: 767px) {
+
+.course {
+    background: #E9E9EA;
+}
 .course__box {
     padding-top: 11px;
     display: flex;
@@ -14,6 +18,35 @@
     display: flex;
     padding: 21px 10px 10px 10px;
 }
+
+.course__block {
+        font-size: 10px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            font-family: Inter;
+            margin-bottom: 12px;
+}
+.course__block-list {
+    padding-top: 0px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.course__block-desc {
+    font-size: 8px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        font-family: Inter;
+}
+.course__block-item {
+    color: #000;
+        font-family: Inter;
+        font-size: 7px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
 .course__description {
     color: #000;
         font-family: Inter;
@@ -21,6 +54,11 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+}
+
+.course__img {
+    width:auto;
+    height: 429px;
 }
 
 }

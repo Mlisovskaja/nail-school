@@ -102,49 +102,43 @@ button {
 /*---------MOBILE---------------*/
 @media screen and (max-width: 767px) {
   .footer {
-    background-color: #2F303A;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    position: relative;
   }
-  .footer-address-box {
+  .footer-box {
+    background-color: #fff;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    padding: 3px;
+    height: 23px;
+    position: absolute;
+    bottom: 14px;
+  }
+  .footer__logo {
+    width: 85px;
+    height: 16px;
   }
   .address {
-    text-align: center;
-    margin-bottom: 60px;
-  }
-  .footer-contacts-list {
     display: flex;
-    list-style: none;
+    align-items: last baseline;
+    gap: 15px;
   }
-  .footer-contacts-list-item:not(:last-child) {
-    margin-bottom: 8px;
+  .div {
+    display: flex;
+    flex-direction: column;
   }
-  .footer-address-link {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-  }
-  .footer-contact-e-mail {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-  }
+  .footer-contact-e-mail,
+  .footer-address-link,
   .footer-contact-phone-number {
+    color: #000;
+    font-family: Inter;
+    font-size: 6px;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    line-height: normal;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
   }
 }
 /*-----------TABLET--------------*/
@@ -1116,7 +1110,7 @@ button {
     color: #E3117F;
     font-size: 10px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
     font-family: Inter;
     margin-bottom: 12px;
@@ -1896,6 +1890,9 @@ button {
 }
 /*---------MOBILE---------------*/
 @media screen and (max-width: 767px) {
+  .course {
+    background: #E9E9EA;
+  }
   .course__box {
     padding-top: 11px;
     display: flex;
@@ -1910,6 +1907,34 @@ button {
     display: flex;
     padding: 21px 10px 10px 10px;
   }
+  .course__block {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: Inter;
+    margin-bottom: 12px;
+  }
+  .course__block-list {
+    padding-top: 0px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  .course__block-desc {
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: Inter;
+  }
+  .course__block-item {
+    color: #000;
+    font-family: Inter;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
   .course__description {
     color: #000;
     font-family: Inter;
@@ -1917,6 +1942,10 @@ button {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+  }
+  .course__img {
+    width: auto;
+    height: 429px;
   }
 }
 /*---------MOBILE---------------*/
@@ -1955,6 +1984,171 @@ button {
     height: 27px;
     right: 9px;
     top: 22px;
+  }
+}
+/*---------MOBILE---------------*/
+@media screen and (max-width: 767px) {
+  .bonus__desc {
+    color: #000;
+    font-family: Inter;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .bonus__title {
+    margin-bottom: 0px;
+    margin-top: 11px;
+  }
+  .bonus {
+    position: relative;
+  }
+  .bonus__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bonus__border-left {
+    position: absolute;
+    width: 100px;
+    height: 21px;
+    top: 8px;
+    left: 40px;
+  }
+  .bonus__border-right {
+    position: absolute;
+    width: 100px;
+    height: 21px;
+    top: 24px;
+    right: 40px;
+  }
+}
+/*---------MOBILE---------------*/
+@media screen and (max-width: 767px) {
+  .hw {
+    padding-left: 13px;
+    padding-bottom: 3px;
+  }
+  .hw__box {
+    display: flex;
+    padding-left: 10px;
+    gap: 5px;
+  }
+  .hw__list {
+    max-width: 200px;
+  }
+  .hw__list-item {
+    color: #000;
+    font-family: Inter;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .hw__logo {
+    width: 33px;
+    height: 33px;
+    margin-top: 5px;
+    margin-left: 43px;
+  }
+  .hw__slim {
+    font-weight: 400;
+  }
+  .prices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .price__title {
+    margin-bottom: 5px;
+  }
+  .price__button-list {
+    list-style: none;
+  }
+  .price__button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #E3117F;
+    border: none;
+    width: 76px;
+    height: 17px;
+  }
+}
+/*---------MOBILE---------------*/
+@media screen and (max-width: 767px) {
+  .proposal {
+    background-color: #071218;
+  }
+  .proposal__box {
+    display: flex;
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+  .proposal__img {
+    width: 108px;
+    height: 162px;
+  }
+  .proposal__desc-box {
+    max-height: 122px;
+  }
+  .proposal__desc {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5px;
+  }
+  .proposal__direct {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #E3117F;
+    width: 66px;
+    height: 9px;
+    text-align: center;
+    margin-top: 13px;
+  }
+  .proposal__table {
+    margin-top: 5px;
+  }
+  .proposal__table-item {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .proposal__final {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+  }
+  .proposal__star {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 3px;
+  }
+  .proposal__certificate {
+    font-weight: 700;
   }
 }
 :root {

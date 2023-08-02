@@ -1,0 +1,42 @@
+/*---------MOBILE---------------*/
+@media screen and (max-width: 767px) {
+.bonus__desc {
+    color: #000;
+        font-family: Inter;
+        font-size: 7px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.bonus__title {
+    margin-bottom: 0px;
+    margin-top: 11px;
+}
+
+.bonus {
+    position: relative;
+}
+
+.bonus__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bonus__border-left {
+    position: absolute;
+    width: 100px;
+    height: 21px;
+    top: 8px;
+    left: 40px;
+}
+
+.bonus__border-right {
+    position: absolute;
+    width: 100px;
+    height: 21px;
+    top: 24px;
+    right: 40px;
+}
+}

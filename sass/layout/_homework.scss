@@ -1,0 +1,64 @@
+/*---------MOBILE---------------*/
+@media screen and (max-width: 767px) {
+
+.hw {
+    padding-left: 13px;
+    padding-bottom: 3px;
+}
+
+.hw__box {
+    display: flex;
+    padding-left: 10px;
+    gap: 5px;
+}
+.hw__list {
+    max-width: 200px;
+}
+
+
+
+.hw__list-item {
+    color: #000;
+        font-family: Inter;
+        font-size: 7px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+
+.hw__logo {
+    width: 33px;
+    height: 33px;
+    margin-top: 5px;
+    margin-left: 43px;
+}
+.hw__slim {
+    font-weight: 400;
+}
+
+.prices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price__title {
+    margin-bottom: 5px;
+}
+.price__button-list {
+    list-style: none;
+}
+.price__button {
+    color: #FFF;
+        font-family: Inter;
+        font-size: 6px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background-color: #E3117F;
+        border: none;
+        width: 76px;
+        height: 17px;
+}
+
+}

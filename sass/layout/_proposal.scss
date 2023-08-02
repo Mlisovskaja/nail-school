@@ -1,0 +1,83 @@
+/*---------MOBILE---------------*/
+@media screen and (max-width: 767px) {
+
+    .proposal {
+        background-color: #071218;
+        
+    }
+
+    .proposal__box {
+        display: flex;
+        padding-left: 19px;
+        padding-right: 19px;
+     
+    }
+
+    .proposal__img {
+        width: 108px;
+        height: 162px;
+    }
+    .proposal__desc-box {
+        max-height: 122px;
+    }
+
+    .proposal__desc {
+        color: #FFF;
+            font-family: Inter;
+            font-size: 6px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 5px;
+    }
+
+    .proposal__direct {
+        color: #FFF;
+            font-family: Inter;
+            font-size: 7px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            background-color: #E3117F;
+            width: 66px;
+                height: 9px;
+                text-align: center;
+                margin-top: 13px;
+    }
+
+    .proposal__table {
+      margin-top: 5px;
+    }
+
+    .proposal__table-item {
+color: #FFF;
+    font-family: Inter;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+    .proposal__final {
+        color: #FFF;
+            font-family: Inter;
+            font-size: 7px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 10px;
+    }
+
+    .proposal__star {
+        color: #FFF;
+            font-family: Inter;
+            font-size: 5px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 3px;
+    }
+    .proposal__certificate {
+        font-weight: 700;
+    }
+}
