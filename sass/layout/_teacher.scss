@@ -6,22 +6,22 @@
       }
     
         .teacher__img {
-        width: 122px;
-        height: 182px;
+        width: auto;
+        height: 225px;
         margin-right: 5px;
         }
 
         .teacher__border {
             position: absolute;
-            width: 130px;
+            width: 156px;
                 height: 23px;
-                top: 165px;
+                top: 210px;
         }
 
         .teacher__bio {
             color: #000;
                 font-family: Inter;
-                font-size: 7px;
+                font-size: 9px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
@@ -29,8 +29,8 @@
         }
 
         .teacher__set {
-            width: 183px;
-            height: 87px;
+            width: 100%;
+            height: auto;
             padding-left: 10px;
         }
 }

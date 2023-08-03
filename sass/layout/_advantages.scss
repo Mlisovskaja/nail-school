@@ -12,21 +12,21 @@
 }
 
 .advantages__photo {
-    width: 124px;
-    height: 171px;
+    width: auto;
+    height: 180px;
    
 }
 
 .advantages__border {
     position: absolute;
-    width: 130px;
+    width: 137px;
     height: 23px;
-    top: 154px;
+    top: 165px;
 }
 
     .advantages-list__item {
     font-weight: 400;
-    font-size: 6px;
+    font-size: 8px;
     color: #000;
 }
 
@@ -46,9 +46,9 @@
 .advantages__button {
     color: #FFF;
         font-family: Inter;
-        font-size: 9.132px;
+        font-size: 10px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 700;
         line-height: normal;
         width: 82px;
         height: 24.1px;
@@ -68,7 +68,7 @@
 .about-title {
     color: #000;
         font-family: Inter;
-        font-size: 17px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -77,10 +77,12 @@
 .about__text {
     color: #000;
         font-family: Inter;
-        font-size: 7.5px;
+        font-size: 9px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        text-transform: uppercase;
+        
 }
 
 .about__border-left {
@@ -94,7 +96,7 @@
     position: absolute;
     width: 112px;
     height: 44px;
-    top: 35px;
+    top: 40px;
     right: 9px;
 }
 

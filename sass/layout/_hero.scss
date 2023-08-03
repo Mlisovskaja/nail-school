@@ -18,16 +18,16 @@
     }
 
     .hero__logo {
-        width: 176px;
-        height: 34px;
+        width: 200px;
+        height: auto;
         margin-bottom: 14px;
     }
 
     .hero__title {
         color: #000;
-            font-size: 17px;
+            font-size: 20px;
             font-style: normal;
-            font-weight: 700;
+            font-weight: 400;
             line-height: normal;
             margin-bottom: 12px;
             font-family: Inter;
@@ -35,7 +35,7 @@
 
        .hero__description {
         color: #000;
-            font-size: 7px;
+            font-size: 9px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -45,18 +45,18 @@
 
        .hero__border {
         position: absolute;
-        top: 135px;
-        left: 43px;
+        top: 150px;
+        left: 83px;
         width: 113x;
             height: 27px;
        }
 
 
        .hero__photo {
-        width: 178.943px;
-        height: 211.415px;
+        width: auto;
+        height: 230px;
     position: absolute;
-    left: 160px;
+    left: 200px;
     bottom: 0px;
 
        }

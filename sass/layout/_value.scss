@@ -10,7 +10,6 @@
     display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 70px;
         max-width: 200px;
         margin-bottom: 10px;
        
@@ -20,28 +19,27 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 105px;
     max-width: 170px;
     margin-bottom: 10px;
 }
 .value__list-item {
     font-weight: 400;
-        font-size: 6px;
+        font-size: 9px;
         color: #000;
 }
 
 .value__img {
-    width: 123px;
-        height: 171px;
+    width: 150px;
+        height: auto;
         position: absolute;
         top: 60px;
         right: 0px;
 }
 .value__border {
-width: 128.96px;
+width: 159px;
 height: 31.32px;
 position: absolute;
-top: 206px;
+top: 245px;
 right: 0px;
 }
 }

@@ -14,17 +14,15 @@
     }
 
     .proposal__img {
-        width: 108px;
-        height: 162px;
-    }
-    .proposal__desc-box {
-        max-height: 122px;
+        width: auto;
+        height: 220px;
+        border: none;
     }
 
     .proposal__desc {
         color: #FFF;
             font-family: Inter;
-            font-size: 6px;
+            font-size: 8px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -34,13 +32,13 @@
     .proposal__direct {
         color: #FFF;
             font-family: Inter;
-            font-size: 7px;
+            font-size: 9px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
             background-color: #E3117F;
-            width: 66px;
-                height: 9px;
+            width: 80px;
+                height: 11px;
                 text-align: center;
                 margin-top: 13px;
     }
@@ -52,16 +50,18 @@
     .proposal__table-item {
 color: #FFF;
     font-family: Inter;
-    font-size: 7px;
+    font-size: 9px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding: 0;
+    margin: 0;
     }
 
     .proposal__final {
         color: #FFF;
             font-family: Inter;
-            font-size: 7px;
+            font-size: 9px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -71,7 +71,7 @@ color: #FFF;
     .proposal__star {
         color: #FFF;
             font-family: Inter;
-            font-size: 5px;
+            font-size: 7px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;

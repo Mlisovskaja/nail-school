@@ -8,7 +8,6 @@
     padding-top: 11px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 .course__list {
@@ -16,11 +15,13 @@
 }
 .course__program {
     display: flex;
-    padding: 21px 10px 10px 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    justify-content: space-around;
 }
 
 .course__block {
-        font-size: 10px;
+        font-size: 13px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
@@ -30,10 +31,10 @@
 .course__block-list {
     padding-top: 0px;
     margin-left: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 .course__block-desc {
-    font-size: 8px;
+    font-size: 9px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -42,7 +43,7 @@
 .course__block-item {
     color: #000;
         font-family: Inter;
-        font-size: 7px;
+        font-size: 9px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -50,15 +51,17 @@
 .course__description {
     color: #000;
         font-family: Inter;
-        font-size: 8px;
+        font-size: 10px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        text-align: center;
 }
 
 .course__img {
-    width:auto;
-    height: 429px;
+    padding: 0;
+    margin: 0;
+    height: 500px;
 }
 
 }
