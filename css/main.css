@@ -136,6 +136,7 @@ button {
     text-decoration: none;
     padding: 0;
     margin: 0;
+    font-style: normal;
   }
 }
 /*-----------TABLET--------------*/
@@ -1175,6 +1176,7 @@ button {
     height: 24.1px;
     background-color: #E3117F;
     border: none;
+    margin-bottom: 10px;
   }
   .about-box {
     display: flex;
@@ -1435,12 +1437,13 @@ button {
     padding-left: 13px;
     padding-top: 20px;
     position: relative;
+    margin-bottom: 10px;
   }
   .value__list_1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 220px;
+    max-width: 200px;
     margin-bottom: 10px;
     padding-left: 13px;
   }
@@ -1448,7 +1451,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 220px;
+    max-width: 200px;
     margin-bottom: 10px;
     padding-left: 13px;
   }
@@ -1607,7 +1610,7 @@ button {
     gap: 5px;
   }
   .hw__list {
-    max-width: 250px;
+    max-width: 240px;
   }
   .hw__list-item {
     color: #000;
