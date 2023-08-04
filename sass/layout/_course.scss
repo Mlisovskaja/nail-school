@@ -22,10 +22,9 @@
 
 .course__block {
         font-size: 13px;
-            font-style: normal;
+            
             font-weight: 700;
-            line-height: normal;
-            font-family: Inter;
+           
             margin-bottom: 12px;
 }
 .course__block-list {
@@ -35,26 +34,24 @@
 }
 .course__block-desc {
     font-size: 9px;
-        font-style: normal;
+        
         font-weight: 700;
-        line-height: normal;
-        font-family: Inter;
+       color: #000;
 }
 .course__block-item {
     color: #000;
-        font-family: Inter;
+       
         font-size: 9px;
-        font-style: normal;
+       
         font-weight: 400;
-        line-height: normal;
 }
 .course__description {
     color: #000;
-        font-family: Inter;
+       
         font-size: 10px;
-        font-style: normal;
+       
         font-weight: 400;
-        line-height: normal;
+   
         text-align: center;
 }
 
