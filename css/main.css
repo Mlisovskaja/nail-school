@@ -155,7 +155,7 @@ button {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 3px;
+    padding-left: 45px;
     height: 83px;
     position: absolute;
     bottom: 75px;
@@ -164,7 +164,6 @@ button {
   .footer__logo {
     width: auto;
     height: 70px;
-    padding-left: 20px;
   }
   .address {
     display: flex;
