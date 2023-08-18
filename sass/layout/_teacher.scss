@@ -13,16 +13,17 @@
 
         .teacher__border {
             position: absolute;
-            width: 156px;
+            width: 164px;
                 height: 23px;
                 top: 210px;
+                left: -5px;
         }
 
         .teacher__bio {
             color: #000;
                 font-size: 9px;
                 font-weight: 400;
-                padding: 5px 13px 5px 10px;
+                padding: 5px 13px 2px 10px;
         }
 
         .teacher__set {
@@ -30,66 +31,52 @@
             height: auto;
             padding-left: 10px;
         }
+        .teacher__bio_newline {
+            margin-top: 5px;
+            color: #000;
+                font-size: 9px;
+                font-weight: 400;
+                padding-left: 10px;
+        }
 }
 /*-----------TABLET--------------*/
 @media screen and (min-width: 768px) {
 
-
-.teacher {
-    display: flex;
-    font-size: 20px;
-    line-height: 1.5;
-    letter-spacing: 0.03em;
-    text-shadow: rgb(214, 159, 198) 1px 0 10px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.teacher-img {
-    max-width: 500px;
-    margin-right: 30px;
-    margin-bottom: 20px;
-}
-
-     .clients-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: var(--item-gap);
+    .teacher {
+        padding-bottom: 35px;
     }
-        .clients-list__item {
-            flex-basis: calc((100% - 60px) / 3);
-        }
-    
-        .clients-list__link {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            fill: #AFB1B8;
-            border: 1px solid rgba(175, 177, 184, 1);
-            height: 92px;
-            border-radius: 4px;
-        }
+
+.teacher__box {
+        display: flex;
+        position: relative;
+        
+    }
+
+    .teacher__img {
+        width: auto;
+        height: 493px;
+        margin-right: 50px;
+    }
+
+    .teacher__border {
+        position: absolute;
+            width: 365px;
+            height: 103px;
+            top: 408px;
+            left: -17px;
+    }
+
+    .teacher__bio {
+        color: #000;
+        padding: 5px 50px 5px 0;
+    }
+
+    .teacher__set {
+        width: 100%;
+        padding-right: 130px;
+    }
     }
 /*---------------DESKTOP-----------------*/
 @media screen and (min-width: 1200px) {
-   .clients-list__item {
-    flex-basis: calc((100% - 150px) / 6);
-}
-
-.teacher {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.clients-list__link {
-    transition: var(--transition-main);
-
-&:hover,
-&:focus {
-    fill: var(--accent-color);
-    border-color: var(--accent-color);
-}
-}
+   
 }

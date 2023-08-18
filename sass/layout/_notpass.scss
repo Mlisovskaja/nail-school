@@ -25,19 +25,49 @@
         text-align: center;
         padding: 0px 18px;
 }
-.notpass__border-left {
+.notpass__border {
     position: absolute;
-    width: 112px;
-    height: 27px;
-    left: 9px;
-    top: 20px;
+    left: 0px;
+    top: 17px;
 }
 
-.notpass__border-right {
-    position: absolute;
-    width: 112px;
-    height: 27px;
-    right: 9px;
-    top: 28px;
+
 }
+
+@media screen and (min-width: 768px) {
+
+        .notpass {
+        
+                background: linear-gradient(rgba(255, 255, 255, 1),
+                        rgba(233, 233, 234, 1));
+            }
+        
+            .notpass__box {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding-bottom: 50px;
+                padding-top: 50px;
+                position: relative;
+            }
+        
+            .notpass__description {
+                color: #000;
+        
+                font-size: 28px;
+        
+                font-weight: 400;
+        
+                text-align: center;
+                padding: 25px 45px;
+            }
+        
+            .notpass__border {
+                position: absolute;
+                height: 152px;
+                width: 1150px;
+                top: 85px;
+            }
+        
 }

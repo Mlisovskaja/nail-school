@@ -71,3 +71,71 @@
 }
 
 }
+
+/*-----------TABLET--------------*/
+@media screen and (min-width: 768px) {
+
+ 
+        .hw__box {
+            display: flex;
+            padding-left: 10px;
+            gap: 5px;
+        }
+    
+        .hw__list {
+            width: 740px;
+            gap: 5px;
+            padding-left: 10px;
+        }
+    
+    
+        .hw__logo {
+            width: 80px;
+            height: 80px;
+            margin-top: 5px;
+            margin-left: 108px;
+        }
+    
+        .hw__slim {
+            font-weight: 400;
+        }
+    
+        .prices {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 15px;
+        }
+    
+        .price__title {
+            margin-bottom: 5px;
+    
+            font-size: 28px;
+    
+            font-weight: 700;
+    
+        }
+    
+        .price__button-list {
+            list-style: none;
+            gap: 20px;
+        }
+    
+        .price__button {
+            color: #FFF;
+    
+            font-size: 15px;
+    
+            font-weight: 400;
+    
+            background-color: #E3117F;
+            border: none;
+            width: 200px;
+            height: 53px;
+        }
+    
+        .hw__accent-price {
+            font-weight: 700;
+            font-size: 28px;
+        }
+}
