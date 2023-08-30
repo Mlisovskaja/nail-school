@@ -1386,7 +1386,6 @@ button {
   .bonus {
     background: #E9E9EA;
     padding-bottom: 35px;
-    position: relative;
   }
   .bonus__desc {
     color: #000;
@@ -1400,12 +1399,13 @@ button {
     display: flex;
     flex-direction: column;
     padding-left: 150px;
+    position: relative;
   }
   .bonus__border {
     position: absolute;
     width: 700px;
     top: -20px;
-    left: 220px;
+    left: 125px;
   }
 }
 /*---------MOBILE---------------*/
