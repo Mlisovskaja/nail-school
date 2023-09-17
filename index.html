@@ -297,10 +297,10 @@
     <h3 class="price__title accent">Вартість <span class="hw__slim">SELF-manicure:</span></h3>
     <ul class="price__button-list">
         <li>
-<button class="price__button">зі зворотнім зв’язком <span class="hw__accent-price">1399грн</span></button>
+<button class="price__button" onclick="runWfpWdgt('https://secure.wayforpay.com/button/bc5147a548980');">зі зворотнім зв’язком <span class="hw__accent-price">1399грн</span></button>
         </li>
         <li>
-<button class="price__button">без зворотнього зв’язку <span class="hw__accent-price">899грн</span></button>
+<button class="price__button" onclick="runWfpWdgt('https://secure.wayforpay.com/button/bc5147a548980');">без зворотнього зв’язку <span class="hw__accent-price">899грн</span></button>
         </li>
     </ul>
     
@@ -360,94 +360,17 @@
                 </div>
         </div>
     </footer>
-<!--MODAL WINDOW-->
-    <div class="backdrop is-hidden" data-modal> 
-    <div class="modal-window">
-        <button type="button" class="modal-close-btn button" data-modal-close>
-            <svg class="modal-close-btn-icon" width="11" height="11">
-                <use href="./images/icons.svg#icon-modal-close-btn"></use>
-            </svg>
-        </button>
-        <form class="modal-form">
-            <p class="modal-form-title">Оставьте свои данные, мы вам перезвоним</p>
-            <label class="modal-form-field">
-                <span class="modal-form-input-description"> Имя </span>
-                <span class="modal-form-input-box">
-                    <input 
-                    type="text" 
-                    name="user_name" 
-                    class="modal-form-input" 
-                    required 
-                    pattern="[a-zA-Zа-яА-Я]+" 
-                    minlength="2" />
-                    <span class="modal-form-input-icon">
-                        <svg class="modal-field-icon" width="18px" height="18px">
-                            <use href="./images/icons.svg#icon-user-modal"></use>
-                        </svg>
-                    </span>
-                </span>
-            </label>
-            <label class="modal-form-field">
-                <span class="modal-form-input-description"> Телефон </span>
-                <span class="modal-form-input-box">
-                    <input 
-                    type="tel" 
-                    name="user_phone" 
-                    class="modal-form-input" 
-                    required 
-                    pattern="[0-9]{10}" minlength="10" />
-                    <span class="modal-form-input-icon">
-                        <svg class="modal-field-icon" width="18px" height="18px">
-                            <use href="./images/icons.svg#icon-phone-modal"></use>
-                        </svg>
-                    </span>
-                </span>
-            </label>
-            <label class="modal-form-field">
-                <span class="modal-form-input-description"> Почта </span>
-                <span class="modal-form-input-box">
-                    <input 
-                    type="email" 
-                    name="user_email" 
-                    class="modal-form-input" 
-                    required 
-                    />
-                    <span class="modal-form-input-icon">
-                        <svg class="modal-field-icon" width="18px" height="18px">
-                            <use href="./images/icons.svg#icon-email-modal"></use>
-                        </svg>
-                    </span>
-                </span>
-            </label>
-            <label class="modal-form-field">
-                <span class="modal-form-input-description"> Комментарий </span>
-                <span class="modal-form-input-box">
-                <textarea 
-                name="user_comment" 
-                class="modal-form-comment" 
-                placeholder="Введите текст"></textarea>
-                </span>
-            </label>
-            <label class="policy-check-field">
-                <input 
-                class="check-box"
-                type="checkbox"
-                name="policy-check-box"
-                />
-                <span class="check-box-icon">
-                    <svg class="check-mark" width="11px" height="8px">
-                        <use href="./images/icons.svg#icon-check-mark"></use>
-                    </svg>
-                </span>
-                <span class="check-box-description">Соглашаюсь с рассылкой и принимаю&nbsp;<a class="policy-link" href="">Условия договора </a></span>
-            </label>
-            <button type="submit" class="modal-form-submit">Отправить</button>
-        </form>
-    </div>
-</div>
 
-    <script src="./js/modal.js"></script> 
-    
+    <script src="./js/payment.js" type="module"></script> 
+   
+<script 
+type="text/javascript" 
+id="widget-wfp-script" 
+src="https://secure.wayforpay.com/server/pay-widget.js?ref=button"></script> 
+<script type="text/javascript">function runWfpWdgt(url){var wayforpay=new Wayforpay();wayforpay.invoice(url);}</script> 
+
+
+
 </body>
 
 </html>
